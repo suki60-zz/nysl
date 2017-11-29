@@ -1,0 +1,238 @@
+/* change defaults settings */
+body,
+h1 {
+    margin: 0
+}
+h2 {
+    margin: 20px 0 15px 0
+}
+h3 {
+    margin: 30px 0 8px 0
+}
+p {
+    margin: 8px 0 8px 0
+}
+button {
+    padding: 0;
+    border-width: 0
+}
+
+
+/* font & background */
+body {
+    font-family: helvetica;
+    background-color: #ecf0f1;
+    text-align: justify
+}
+#nav {
+    background-color: #2c3e50;
+    color: white
+}
+#dropdown {
+    background-color: #2c3e50;
+}
+.drop-button,
+#login-button,
+#logout-button,
+#send-button {
+    background-color: #2c3e50; /* Green */
+    border: none;
+    color: white
+}
+.week-button,
+.time-button {
+    background-color: #ecf0f1;
+}
+h1 {
+    font-size: 20px
+}
+h2 {
+    font-size: 18px
+}
+h3 {
+    font-size: 15px
+}
+button {
+    font-size: 14px
+}
+.week-button {
+    font-size: 15px
+}
+
+
+/* flex */
+.flex {
+    display: flex
+}
+.flex-column {
+    display: flex;
+    flex-direction: column
+}
+.flex-row-sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+
+/* align actions */
+.center {
+    justify-content: center;
+    align-items: center;
+}
+.loc-address {
+    text-align: center;
+}
+h2 {
+    text-align: center
+}
+
+
+/* margins */
+.date-center h3 {
+    margin: 15px 0 15px 0
+}
+#chat-box-center,
+#inputsend-center {
+    margin: 5px 10px 5px 10px
+}
+
+/* paddings */
+.loc-address {
+    padding-top: 10px
+}
+#about-center,
+#contact-center, 
+#events-center {
+    padding: 0px 5% 5px 5%
+}
+#login-button,
+#logout-button {
+    padding: 2px 5px 2px 5px
+}
+
+
+/* heights */
+#nav {
+    height: 50px
+}
+.week {
+    height: 50px
+}
+.date {
+    height: 50px
+}
+.matchgame {
+    height: 200px
+}
+.game {
+    height: 50%
+}
+.detail-nav {
+    height: 50px
+}
+.gi {
+    height: 150px
+}
+.loc-title {
+    height: 60px
+}
+.loc-map {
+    height: 200px
+}
+.loc-address {
+    height: 60px;
+}
+#dropdown,
+#dropdown-container{
+    height: 50px
+}
+#login,
+#logout {
+    height: 30px
+}
+#chat-box {
+    height: 80vh
+}
+#chat-input {
+    height: 20px
+}
+#send-button {
+    height: 26px
+}
+
+
+/* width */
+.w-100vw {
+    width: 100vw
+}
+#logo,
+#dropdown-icon {
+    width: 48px
+}
+.drop-item {
+    width: 20vw
+}
+.week {
+    width: 33vw
+}
+.team,
+.time {
+    width: 33vw
+}
+.detail-return,
+.detail-empty {
+    width: 48px
+}
+.gi-team,
+.gi-date {
+    width: 33vw
+}
+#chat-input {
+    width: 70vw
+}
+#send-button {
+    width: 20vw
+}
+
+/* images */
+#dropdown-button,
+#dropdown-icon-center {
+    height: 40px;
+    width: 40px
+}
+#logo-img,
+#logo-center {
+    height: 30px;
+    width: 30px
+}
+.team-logo,
+.team-center {
+    height: 50px;
+    width: 50px
+}
+.detail-return-center,
+.detail-return-input {
+    height: 30px;
+    width: 30px
+}
+.gi-team-center,
+.gi-team-logo {
+    height: 100px;
+    width: 100px
+}
+.loc-map-center,
+.loc-map-iframe {
+    height: 150px;
+    width: 250px
+}
+
+/* others */
+#chat-input {
+    border-radius: 10px
+}
+#chat-box-center {
+    overflow: scroll;
+    
+        
+}

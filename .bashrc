@@ -1,0 +1,1 @@
+export PATH = "my app/bin:$PATH"
